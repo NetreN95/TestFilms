@@ -1,10 +1,10 @@
 # Приложение с фильмами
 
-Приложение показывает список фильмов, которые получаются по ссылке
+Приложение показывает список фильмов, полученный по ссылке
 https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 
 Технологический стек:
-
+- Среда разработки Android Studio
 - Android SDK
 - [Kotlin 2.0](https://kotlinlang.org/docs/whatsnew20.html)
 - [Kotlin multiplatform](https://kotlinlang.org/docs/multiplatform.html)
@@ -17,7 +17,6 @@ https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 - [Odyssey (Навигация)](https://github.com/AlexGladkov/Odyssey)
 
 Основные модули
-
 - common:core:* - базовые модули, библиотеки, интерфейсы/абстрактные классы, модели,
   которые используются в проекте
 - common:features:* - реализации feature модулей
