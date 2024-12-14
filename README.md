@@ -29,3 +29,5 @@ https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 - common:main - центральная сборка приложения
 - app:* - сборка приложения для платформ
 - apk:* - собранные apk
+
+[apk для теста](apk/android-debug.apk)
