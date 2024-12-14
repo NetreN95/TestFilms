@@ -1,0 +1,7 @@
+[versions]
+odyssey = "1.3.60"
+
+[libraries]
+odyssey-core = { module = "io.github.alexgladkov:odyssey-core", version.ref = "odyssey" }
+odyssey-compose = { module = "io.github.alexgladkov:odyssey-compose", version.ref = "odyssey" }
+odyssey-android = { module = "io.github.alexgladkov:odyssey-android", version.ref = "odyssey" }

@@ -1,0 +1,32 @@
+[versions]
+#kotlin = "1.9.23"
+kotlin = "2.0.20"
+compose = "1.6.11"
+agp = "8.2.2"
+sqlDelight = "2.0.2"
+ktor = "2.3.10"
+
+[libraries]
+kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+
+compose = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "compose" }
+
+android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+
+sqlDelight = { module = "app.cash.sqldelight:gradle-plugin", version.ref = "sqlDelight" }
+
+[plugins]
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
+sqlDelight = { id = "app.cash.sqldelight", version.ref = "sqlDelight" }
+
+ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
+
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
