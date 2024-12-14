@@ -3,6 +3,8 @@
 Приложение показывает список фильмов, полученный по ссылке
 https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 
+[apk:* - собранные apk](apk)
+
 Приложение написано для следующих платформ:
 - Android
 - Desktop
@@ -32,4 +34,3 @@ https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 - common:features:*:main - центральная сборка модуля
 - common:main - центральная сборка приложения
 - app:* - сборка приложения для платформ
-- [apk:* - собранные apk](apk)
