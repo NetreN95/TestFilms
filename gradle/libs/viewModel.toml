@@ -1,15 +1,5 @@
 [versions]
-kviewmodel = "0.17"
 jetbrainsViewModel = "2.8.2"
-#jetbrainsViewModel = "2.8.6"
 
 [libraries]
-#kviewmodel-core = { module = "com.adeo:kviewmodel", version.ref = "kviewmodel" }
-#kviewmodel-compose = { module = "com.adeo:kviewmodel-compose", version.ref = "kviewmodel" }
-#kviewmodel-odyssey = { module = "com.adeo:kviewmodel-odyssey", version.ref = "kviewmodel" }
-
-kviewmodel-core = { module = "io.github.alexgladkov:kviewmodel", version.ref = "kviewmodel" }
-kviewmodel-compose = { module = "io.github.alexgladkov:kviewmodel-compose", version.ref = "kviewmodel" }
-kviewmodel-odyssey = { module = "io.github.alexgladkov:kviewmodel-odyssey", version.ref = "kviewmodel" }
-
 jetbrainsViewModel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "jetbrainsViewModel" }
