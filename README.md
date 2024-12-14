@@ -3,6 +3,15 @@
 Приложение показывает список фильмов, полученный по ссылке
 https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 
+Приложение написано для следующих платформ:
+- Android
+- Desktop
+
+Приложение проверено на следующих устройствах:
+- Эмулятор Pixel 8 (Android 8, API 26)
+- Xiaomi Redmi 8A (Android 10.0, API 29)
+- ПК с ОС Windows 10 средствами среды разработки Android Studio
+
 Технологический стек:
 - Среда разработки Android Studio
 - Android SDK
