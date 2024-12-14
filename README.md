@@ -17,7 +17,6 @@ https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 - [Retrofit](https://square.github.io/retrofit/)
 - [CoIL Image Loader](https://coil-kt.github.io/coil/)
 - [Odyssey (Навигация)](https://github.com/AlexGladkov/Odyssey)
-- 
 
 
 
