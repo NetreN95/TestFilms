@@ -1,11 +1,7 @@
 # Приложение с фильмами
 
-[apk:* - собранные apk](apk)
-
 Приложение показывает список фильмов, которые получаются по ссылке
-
 https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
-
 
 Технологический стек:
 
@@ -20,14 +16,12 @@ https://s3-eu-west-1.amazonaws.com/sequeniatesttask/films.json
 - [CoIL Image Loader](https://coil-kt.github.io/coil/)
 - [Odyssey (Навигация)](https://github.com/AlexGladkov/Odyssey)
 
-
-
 Основные модули
 
 - common:core:* - базовые модули, библиотеки, интерфейсы/абстрактные классы, модели,
-которые используются в проекте
+  которые используются в проекте
 - common:features:* - реализации feature модулей
 - common:features:*:main - центральная сборка модуля
 - common:main - центральная сборка приложения
 - app:* - сборка приложения для платформ
-- apk:* - собранные apk
+- [apk:* - собранные apk](apk)
